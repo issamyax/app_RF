@@ -6,7 +6,7 @@ import streamlit as st
 
 np.set_printoptions(precision=3, suppress=True)
 
-info = pd.read_excel('D:/PFE/Terrain/model4/sarpalsaronehot.xlsx')
+info = pd.read_excel('sarpalsaronehot.xlsx')
 y = info.agb
 info.columns
 x= info.drop('agb', axis = 1)
